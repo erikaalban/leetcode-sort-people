@@ -5,6 +5,7 @@
  */
 var sortPeople = function (names, heights) {
   // group arrays
+  // I learned I can group arrays in an object, and then sort the object by the height key.
   let people = [];
 
   for (let i = 0; i < names.length; i++) {
